@@ -1,19 +1,132 @@
-/* styles.css */
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/* Define styles for the navigation bar */
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation bar */
 nav {
     background-color: #333;
     color: #fff;
+    padding: 15px 0;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
 }
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 15px;
 }
 
-/* Add more CSS rules for other elements in your webpage */
+/* Header */
+header {
+    text-align: center;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* About section */
+#about {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+/* Project cards */
+.project {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Contact section */
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header {
+        padding: 60px 0;
+    }
+    .project {
+        margin: 10px;
+    }
+    form {
+        padding: 0 20px;
+    }
+}
