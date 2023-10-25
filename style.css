@@ -1,0 +1,19 @@
+/* styles.css */
+
+/* Define styles for the navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Add more CSS rules for other elements in your webpage */
